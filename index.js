@@ -31,17 +31,11 @@ async function run () {
 
         })
 
-        app.get('/categories/:id', async (req, res) => {
+        app.get('/category/:id', async (req, res) => {
             const id = req.params.id;
-            const query = { _id: ObjectId(id) };
-            const categoriesItem = await categoriesCollection.findOne(query);
+            const query = { category_id: id };
+            const categoriesItem = await categoryCollection.find(query).toArray();
             res.send(categoriesItem);
-        })
-
-        app.get('/category', async (req, res) => {
-            const query = {};
-            const categoryItem = await categoryCollection.find(query).toArray();
-            res.send(categoryItem);
         })
 
         

@@ -7,8 +7,10 @@
         "resale_price": "13000 tk",
         "original_price": "26000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "05-22-2022",
+        "isVerified": false,
+        "seller_name": "Kanak Hasan",
+        "email": "kanakhasan24@gamil.com"
     },
     {
         "category_id": "01",
@@ -18,8 +20,10 @@
         "resale_price": "18300 tk",
         "original_price": "21000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "04-17-2022",
+        "isVerified": false,
+        "seller_name": "Nazmus Sadat",
+        "email": "nazmussadat@gamil.com"
     },
     {
         "category_id": "01",
@@ -28,9 +32,11 @@
         "location": "Rajshahi Binodpur",
         "resale_price": "15000 tk",
         "original_price": "22000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "1 Years",
+        "postDate": "09-29-2022",
+        "isVerified": false,
+        "seller_name": "Basonti Kumari",
+        "email": "basontikumari@gamil.com"
     },
     {
         "category_id": "01",
@@ -40,8 +46,10 @@
         "resale_price": "10000 tk",
         "original_price": "12300 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-18-2022",
+        "isVerified": false,
+        "seller_name": "Hafizur Rahman",
+        "email": "hafizurrahman@gamil.com"
     },
     {
         "category_id": "01",
@@ -50,9 +58,11 @@
         "location": "Maymanshing Sadar",
         "resale_price": "19000 tk",
         "original_price": "29000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "4 Years",
+        "postDate": "08-26-2022",
+        "isVerified": false,
+        "seller_name": "Siddiq Manik",
+        "email": "siddiqmanikratan@gamil.com"
     },
     {
         "category_id": "01",
@@ -61,9 +71,11 @@
         "location": "Syelet Mayejvandari",
         "resale_price": "17000 tk",
         "original_price": "25000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "2 Years",
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Ajgar Ali",
+        "email": "asgarali@gamil.com"
     },
     {
         "category_id": "01",
@@ -73,8 +85,10 @@
         "resale_price": "23500 tk",
         "original_price": "31000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Borhani Mandal",
+        "email": "barhanimandal@gamil.com"
     },
     {
         "category_id": "01",
@@ -84,8 +98,10 @@
         "resale_price": "19000 tk",
         "original_price": "36000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Sadmansalauddin Salsha",
+        "email": "sadmansalauddinsalsha@gamil.com"
     },
     {
         "category_id": "01",
@@ -95,8 +111,10 @@
         "resale_price": "16000 tk",
         "original_price": "22000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Manik Mollah",
+        "email": "manikmollah@gamil.com"
     },
     {
         "category_id": "02",
@@ -106,8 +124,10 @@
         "resale_price": "33000 tk",
         "original_price": "45200 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Hasot Mannan",
+        "email": "hasotmannan24@gamil.com"
     },
     {
         "category_id": "02",
@@ -117,8 +137,10 @@
         "resale_price": "23300 tk",
         "original_price": "29000 tk",
         "uses": "4 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Mizanur Rahman",
+        "email": "mizanurrahman235@gamil.com"
     },
     {
         "category_id": "02",
@@ -128,8 +150,10 @@
         "resale_price": "11000 tk",
         "original_price": "18000 tk",
         "uses": "2 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Asrafull Talukdar",
+        "email": "asrafultalukdar12@gamil.com"
     },
     {
         "category_id": "02",
@@ -139,8 +163,10 @@
         "resale_price": "13000 tk",
         "original_price": "19000 tk",
         "uses": "2.5 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Chor Uddin",
+        "email": "sadaruddin78@gamil.com"
     },
     {
         "category_id": "02",
@@ -150,8 +176,10 @@
         "resale_price": "17000 tk",
         "original_price": "28000 tk",
         "uses": "1 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Parves Masarraf",
+        "email": "parvesmasarraf900@gamil.com"
     },
     {
         "category_id": "02",
@@ -161,8 +189,10 @@
         "resale_price": "11000 tk",
         "original_price": "16000 tk",
         "uses": "1 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Sultan Solaiman",
+        "email": "sultansolaiman@gamil.com"
     },
     {
         "category_id": "02",
@@ -172,8 +202,10 @@
         "resale_price": "9000 tk",
         "original_price": "13000 tk",
         "uses": "2 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Korkhali Asad",
+        "email": "korokhaliasad678@gamil.com"
     },
     {
         "category_id": "02",
@@ -183,8 +215,10 @@
         "resale_price": "14000 tk",
         "original_price": "21000 tk",
         "uses": "2 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Habib Masud",
+        "email": "habibmasud09@gamil.com"
     },
     {
         "_id": "1234567890e09854kl09456jkiu18",
@@ -195,8 +229,10 @@
         "resale_price": "20700 tk",
         "original_price": "30200 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Rakib Raihan",
+        "email": "rakibraihan24@gamil.com"
     },
     {
         "category_id": "03",
@@ -205,9 +241,11 @@
         "location": "Dhaka Panthopath",
         "resale_price": "21000 tk",
         "original_price": "32400 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "2 Years",
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Sakib",
+        "email": "sakib@gamil.com"
     },
     {
         "category_id": "03",
@@ -217,8 +255,10 @@
         "resale_price": "13000 tk",
         "original_price": "21000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Hannan",
+        "email": "hannan@gamil.com"
     },
     {
         "category_id": "03",
@@ -227,9 +267,11 @@
         "location": "Syelet Kanduyana",
         "resale_price": "16000 tk",
         "original_price": "22000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "1 Years",
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Suhana",
+        "email": "suhana@gamil.com"
     },
     {
         "category_id": "03",
@@ -238,9 +280,11 @@
         "location": "Borguna Bihangi",
         "resale_price": "18000 tk",
         "original_price": "36000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "4 Years",
+        "postDate": "08-23-2022",
+        "isVerified": false,
+        "seller_name": "Kaniz",
+        "email": "kaniz@gamil.com"
     },
     {
         "category_id": "03",
@@ -249,9 +293,11 @@
         "location": "Kazihata Khulna",
         "resale_price": "19400 tk",
         "original_price": "26000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "2 Years",
+        "postDate": "09-23-2022",
+        "isVerified": false,
+        "seller_name": "Mayabothi",
+        "email": "mayaboti@gamil.com"
     },
     {
         "category_id": "03",
@@ -261,8 +307,10 @@
         "resale_price": "12000 tk",
         "original_price": "17000 tk",
         "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "postDate": "03-12-2022",
+        "isVerified": false,
+        "seller_name": "Jamila",
+        "email": "jamila@gamil.com"
     },
     {
         "category_id": "03",
@@ -271,9 +319,11 @@
         "location": "Dhaka Vuter Goli",
         "resale_price": "38000 tk",
         "original_price": "58000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "5 Years",
+        "postDate": "07-09-2022",
+        "isVerified": false,
+        "seller_name": "Khandakar",
+        "email": "khandakar@gamil.com"
     },
     {
         "category_id": "03",
@@ -282,8 +332,10 @@
         "location": "Rajshahi Durgapur",
         "resale_price": "12000 tk",
         "original_price": "21000 tk",
-        "uses": "3 Years",
-        "role": "",
-        "seller_name": ""
+        "uses": "2.5 Years",
+        "postDate": "11-29-2022",
+        "isVerified": false,
+        "seller_name": "Hafeez Zaman",
+        "email": "hafeezzaman@gamil.com"
     }
 ]
