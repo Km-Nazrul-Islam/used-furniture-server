@@ -38,12 +38,24 @@ async function run () {
             res.send(categoriesItem);
         })
 
-        
+        app.get('/users/:user/:email', async (req, res) => {
+            const email = req.params.email;
+            const query = {email:email}
+            const user = await allUserCollection.findOne(query);
+            res.send(user);  
+        })
 
         app.post('/allUser', async (req, res) => {
             const user = req.body;
             const result = await allUserCollection.insertOne(user);
             res.send(result);
+        })
+
+        app.get('/allUser', async (req, res) => {
+            const email = req.query.email;
+            const query = { email: email };
+            const allUser = await allUserCollection.find(query).toArray();
+            res.send(allUser)
         })
 
     }
@@ -55,36 +67,9 @@ async function run () {
 
 run().catch(console.log);
 
-
-
 app.get('/', async (req, res) => {
     res.send('Used Furniture Server is Running')
 })
-
-
-/*
-// ---------------Locall API Start--------------------
-const categories = require('./data/categories.json');
-const products = require('./data/category.json')
-
-app.get('/product-categories', (req, res) => {
-    res.send(categories);
-});
-
-app.get('/category/:id', (req, res) => {
-    const id = req.params.id;
-    const category_products = products.filter(p => p.category_id === id);
-    res.send(category_products);
-})
-
-app.get('/products/:id', (req, res) => {
-    const id = req.params.id;
-    const targetProducts = products.find(p => p._id === id);
-    res.send(targetProducts);
-})
-
-//-----------------Local API End--------------------------------
-*/
 
 app.listen(port, () => {
     console.log(`Used Furniture Running on port ${port}`)
