@@ -23,7 +23,6 @@ async function run () {
         const categoryCollection = client.db('imamUsedFurniture').collection('category');
         const allUserCollection = client.db('imamUsedFurniture').collection('allUser');
         const bookingCollection = client.db('imamUsedFurniture').collection('bookings');
-        const addproductCollection = client.db('imamUsedFurniture').collection('addproduct');
 
 
         app.get('/categories', async (req, res) => {
@@ -47,6 +46,22 @@ async function run () {
             res.send(user);  
         })
 
+        app.get("/users/:role", async (req, res) => {
+            const email = req.params.role;
+            console.log(email);
+            const query = { role: email };
+            const result = await allUserCollection.find(query).toArray();
+            res.send(result);
+        });
+
+        // app.get("/users/seller/:email", async (req, res) => {
+        //     const email = req.params?.email;
+        //     console.log(email);
+        //     const query = { email };
+        //     const user = await allUserCollection.findOne(query);
+        //     res.send({ isSeller: user?.role == "seller" });
+        // });
+
         app.post('/bookings', async (req, res) => {
             const bookings = req.body;
             const result = await bookingCollection.insertOne(bookings);
@@ -60,12 +75,11 @@ async function run () {
         })
 
 
-        app.post('/category/:id', async (req, res) => {
-            const id = req.params.id;
-            const query = {category_id: id};
-            const result = await categoryCollection.insertOne(query);
+        app.post("/category", async (req, res) => {
+            const product = req.body;
+            const result = await categoryCollection.insertOne(product);
             res.send(result);
-        })
+        });
 
         app.get('/allUser', async (req, res) => {
             const email = req.query.email;
