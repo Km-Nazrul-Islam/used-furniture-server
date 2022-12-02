@@ -23,6 +23,7 @@ async function run () {
         const categoryCollection = client.db('imamUsedFurniture').collection('category');
         const allUserCollection = client.db('imamUsedFurniture').collection('allUser');
         const bookingCollection = client.db('imamUsedFurniture').collection('bookings');
+        const reportCollection = client.db('imamUsedFurniture').collection('report');
 
 
         app.get('/categories', async (req, res) => {
@@ -54,16 +55,6 @@ async function run () {
             res.send(result);
         });
 
-        /*
-        app.get("/users/seller/:email", async (req, res) => {
-            const email = req.params?.email;
-            console.log(email);
-            const query = { email };
-            const user = await allUserCollection.findOne(query);
-            res.send({ isSeller: user?.role == "seller" });
-        });
-        */
-
         app.post('/bookings', async (req, res) => {
             const bookings = req.body;
             const result = await bookingCollection.insertOne(bookings);
@@ -89,6 +80,34 @@ async function run () {
             const allUser = await allUserCollection.find(query).toArray();
             res.send(allUser)
         })
+
+        app.delete("/allUser/:id", async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const users = await allUserCollection.deleteOne(query);
+            res.send(users);
+        });
+
+        app.post("/report", async (req, res) => {
+            const report = req.body;
+            const result = await reportCollection.insertOne(report);
+            res.send(result);
+        });
+
+        app.get("/report", async (req, res) => {
+            const query = {}
+            const result = await reportCollection.find(query).toArray()
+            res.send(result)
+        })
+
+        app.delete("/report/:id", async (req, res) => {
+            const id = req.params.id;
+            console.log(id)
+            const query = { _id: ObjectId(id) };
+            const report = await reportCollection.deleteOne(query);
+            console.log(report)
+            res.send(report);
+        });
 
     }
 
